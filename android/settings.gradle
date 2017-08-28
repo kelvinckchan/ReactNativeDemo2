@@ -1,0 +1,3 @@
+rootProject.name = 'IGNwNBproject'
+
+include ':app'
