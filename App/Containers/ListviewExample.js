@@ -30,7 +30,7 @@ const dataObjects = [
 class ListviewExample extends React.Component {
   render () {
     return (
-      <Container >
+      <Container>
         <Header>
           <Left>
             <Button transparent onPress={()=> this.context.drawer.open()}>

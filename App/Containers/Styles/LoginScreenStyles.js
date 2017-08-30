@@ -7,8 +7,11 @@ export default StyleSheet.create({
     backgroundColor: Colors.background
   },
   form: {
+    width: 300,
     backgroundColor: Colors.snow,
     margin: Metrics.baseMargin,
+    marginTop: 300,
+    alignSelf: 'center',
     borderRadius: 4
   },
   row: {

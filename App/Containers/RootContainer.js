@@ -20,7 +20,7 @@ class RootContainer extends Component {
   render () {
     return (
       <View style={styles.applicationView}>
-        <StatusBar barStyle='light-content' />
+        <StatusBar hidden={true} backgroundColor="#000" barStyle='light-content' />
         <NavigationRouter />
       </View>
     )

@@ -20,6 +20,8 @@ class NavigationDrawer extends Component {
         onOpen={() => NavigationActions.refresh({key: state.key, open: true})}
         onClose={() => NavigationActions.refresh({key: state.key, open: false})}
         content={<DrawerContent />}
+        panOpenMask={.25}
+        side="left"
         tapToClose
       >
         <DefaultRenderer navigationState={children[state.index]} onNavigate={this.props.onNavigate} />

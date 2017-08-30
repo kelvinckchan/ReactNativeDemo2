@@ -31,7 +31,7 @@ class LoginScreen extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      username: 'reactnative@infinite.red',
+      username: 'User Name',
       password: 'password',
       visibleHeight: Metrics.screenHeight,
       topLogo: { width: Metrics.screenWidth-40 }
@@ -83,7 +83,7 @@ class LoginScreen extends React.Component {
     // this.isAttempting = true
     // attempt a login - a saga is listening to pick it up from here.
     // this.props.attemptLogin(username, password);
-    NavigationActions.launchScreen();
+    NavigationActions.dashboard({TabNumber:1});
   }
 
   handleChangeUsername = (text) => {
@@ -102,7 +102,7 @@ class LoginScreen extends React.Component {
     const textInputStyle = editable ? Styles.textInput : Styles.textInputReadonly
     return (
       <ScrollView contentContainerStyle={{justifyContent: 'center'}} style={[Styles.container, {height: this.state.visibleHeight}]} keyboardShouldPersistTaps='always'>
-        <Image source={Images.logo} style={[Styles.topLogo, this.state.topLogo]} />
+      {/*<Image source={Images.logo} style={[Styles.topLogo, this.state.topLogo]} />*/}
         <View style={Styles.form}>
         <Form>
           <Item stackedLabel>
@@ -138,12 +138,12 @@ class LoginScreen extends React.Component {
           </Item>
         </Form>
           <View style={[Styles.loginRow]}>
-            <Button style={{flex: 1, justifyContent: 'center'}} full onPress={this.handlePressLogin}>
+            <Button style={{backgroundColor:'#29c9db', flex: 1, justifyContent: 'center'}} full onPress={this.handlePressLogin}>
               <NBText>
                 Sign In
               </NBText>
             </Button>
-            <Button style={{flex: 1, justifyContent: 'center'}} full onPress={NavigationActions.pop}>
+            <Button style={{backgroundColor:'#29c9db', flex: 1, justifyContent: 'center'}} full onPress={NavigationActions.pop}>
               <NBText>
                 Cancel
               </NBText>
