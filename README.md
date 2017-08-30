@@ -3,6 +3,9 @@
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
+# :heavy_exclamation_mark: Research Notes
+**[Notes for this Demo App with Native Base and Chart Component..](./ReactNativeAppResearhNotes.md)**
+
 ## :arrow_up: How to Setup
 
 **Step 1:** git clone this repo:
@@ -21,6 +24,7 @@
   * for Android
     * Run Genymotion
     * run `react-native run-android`
+
 
 ## :no_entry_sign: Standard Compliant
 
