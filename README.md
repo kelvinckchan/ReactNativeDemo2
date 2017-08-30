@@ -4,7 +4,7 @@
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
 # Research Notes
-**[Notes for this Demo App with Native Base and Chart Component..]**(./ReactNativeAppResearhNotes.md)
+**[Notes for this Demo App with Native Base and Chart Component..](./ReactNativeAppResearhNotes.md)**
 
 ## :arrow_up: How to Setup
 
