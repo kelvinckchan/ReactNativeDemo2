@@ -22,6 +22,9 @@
     * Run Genymotion
     * run `react-native run-android`
 
+## Research Notes
+[Notes](./ReactNativeAppResearhNotes.md)
+
 ## :no_entry_sign: Standard Compliant
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
