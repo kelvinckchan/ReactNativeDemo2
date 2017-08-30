@@ -19,7 +19,7 @@ export default class Todo extends React.Component {
        basic: true,
        listViewData: datas,
        Num:1,
-       dataSource: ds.cloneWithRows(datas.title)
+       dataSource: ds.cloneWithRows(datas)
      };
    }
 
