@@ -6,6 +6,11 @@
 # :heavy_exclamation_mark: Research Notes
 **[Notes for this Demo App with Native Base and Chart Component..](./ReactNativeAppResearhNotes.md)**
 
+## ScreenShot Demo
+ 
+<img id="charts" src="https://user-images.githubusercontent.com/30279868/29864749-3a0e7d2c-8da6-11e7-8fd8-f6361c223844.png" height="500"> <img id="drawer" src="https://user-images.githubusercontent.com/30279868/29864748-3a0e4154-8da6-11e7-8358-69934f5bb4a9.png" height="500"> <img id="card" src="https://user-images.githubusercontent.com/30279868/29864747-3a0e2886-8da6-11e7-99b4-50bd387b5e04.png" height="500">
+
+
 ## :arrow_up: How to Setup
 
 **Step 1:** git clone this repo:
