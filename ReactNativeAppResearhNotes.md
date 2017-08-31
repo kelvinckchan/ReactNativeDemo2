@@ -74,14 +74,18 @@ Edit Denpendency version in ```./package.json```
 ### Other Tools:
 * [Android Emulator - Genymotion](https://www.genymotion.com/)
 * [Expo](https://expo.io/)
+
 * [Atom](https://atom.io/)
 * [Nuclide](https://nuclide.io/)
+* [FLOW](https://flow.org/) - static type checking 
 
-### Other Component:
+### Component may be Useful:
 
 * Responsive UI: [react-native-responsive-ui](https://github.com/wcandillon/react-native-responsive-ui)
+* Form: 
+  * [redux-form](https://github.com/erikras/redux-form)
+  * [tcomb-form-native](https://github.com/gcanti/tcomb-form-native)
 
 ### Other Reference:
-* [FLOW](https://flow.org/) - static type checking 
 * [Awesome React Native](http://www.awesome-react-native.com/#backend)
 * [JS Coach](https://js.coach/react-native?sort=popular)
