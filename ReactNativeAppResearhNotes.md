@@ -65,14 +65,6 @@ Edit Denpendency version in ```./package.json```
  react-native run-android
  ```
 
-## Open Example - **IGNwNBproject**
-```
-cd IGNwNBproject
-npm install --save react-native-charts-wrapper
-react-native link
-react-native run-android
-```
-
 ### Component: 
 * Boilerplate CLI:  [Ignite](https://github.com/infinitered/ignite)
 * Style:  [native-base](https://nativebase.io/)
