@@ -19,6 +19,7 @@ import Todo from '../Containers/Todo'
 import Idea from '../Containers/Idea'
 import ClientList from '../Containers/ClientList'
 import ChartShowCase from '../Containers/ChartShowCase'
+import ContactPage from '../Containers/ContactPage'
 
 import styles from './Styles/DashBoardTabStyle'
 
@@ -30,11 +31,14 @@ class DashBoardTab extends Component {
       <Content >
         <Tabs  initialPage={this.props.TabNumber}>
         <Tab heading="Todo" tabStyle={{backgroundColor: 'transparent'}} textStyle={{color: '#29c9db'}} activeTabStyle={{backgroundColor: '#61d9e8',opacity:0.8}} activeTextStyle={{color: '#fff', fontWeight: 'normal'}}>
-     <Todo/>
+        <Todo/>
           </Tab>
         <Tab heading="Idea" tabStyle={{backgroundColor: 'transparent' }} textStyle={{color: '#29c9db'}} activeTabStyle={{backgroundColor: '#61d9e8',opacity:0.8}} activeTextStyle={{color: '#fff', fontWeight: 'normal'}}>
             <Idea/>
           </Tab>
+          <Tab heading="ContactPage" tabStyle={{backgroundColor: 'transparent' }} textStyle={{color: '#29c9db'}} activeTabStyle={{backgroundColor: '#61d9e8',opacity:0.8}} activeTextStyle={{color: '#fff', fontWeight: 'normal'}}>
+              <ContactPage/>
+            </Tab>
           <Tab heading="Charts" tabStyle={{backgroundColor: 'transparent' }} textStyle={{color: '#29c9db'}} activeTabStyle={{backgroundColor: '#61d9e8',opacity:0.8}} activeTextStyle={{color: '#fff', fontWeight: 'normal'}}>
             <ChartShowCase />
           </Tab>
