@@ -10,26 +10,17 @@
  
 <img id="charts" src="https://user-images.githubusercontent.com/30279868/29864749-3a0e7d2c-8da6-11e7-8fd8-f6361c223844.png" height="500"> <img id="drawer" src="https://user-images.githubusercontent.com/30279868/29864748-3a0e4154-8da6-11e7-8358-69934f5bb4a9.png" height="500"> <img id="card" src="https://user-images.githubusercontent.com/30279868/29864747-3a0e2886-8da6-11e7-99b4-50bd387b5e04.png" height="500">
 
-
-## :arrow_up: How to Setup
-
-**Step 1:** git clone this repo:
-
-**Step 2:** cd to the cloned repo:
-
-**Step 3:** Install the Application with `npm install`
-
-
-## :arrow_forward: How to Run App
-
-1. cd to the repo
-2. Run Build for either OS
-  * for iOS
+## :arrow_forward: How to Run Example - **IGNwNBproject**
+```
+cd IGNwNBproject
+npm install --save react-native-charts-wrapper
+react-native link
+ * for iOS
     * run `react-native run-ios`
-  * for Android
+ * for Android
     * Run Genymotion
     * run `react-native run-android`
-
+```
 
 ## :no_entry_sign: Standard Compliant
 
