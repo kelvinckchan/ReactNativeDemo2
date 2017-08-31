@@ -13,14 +13,17 @@
 ## :arrow_forward: How to Run Example - **IGNwNBproject**
 ```
 cd IGNwNBproject
+
 npm install --save react-native-charts-wrapper
+
 react-native link
+```
  * for iOS
     * run `react-native run-ios`
  * for Android
     * Run Genymotion
     * run `react-native run-android`
-```
+
 
 ## :no_entry_sign: Standard Compliant
 
