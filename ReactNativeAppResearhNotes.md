@@ -79,7 +79,7 @@ Edit Denpendency version in ```./package.json```
 * [Nuclide](https://nuclide.io/)
 * [FLOW](https://flow.org/) - static type checking 
 
-### Component may be Useful:
+### Other Components:
 
 * Responsive UI: [react-native-responsive-ui](https://github.com/wcandillon/react-native-responsive-ui)
 * Form: 
